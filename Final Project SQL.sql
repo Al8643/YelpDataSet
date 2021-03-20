@@ -36,8 +36,8 @@
 -- vii. hours table =		10000
 -- viii. photo table = 		10000
 -- ix. review table = 		10000
--- x. tip table = 			10000
--- xi. user table =			10000
+-- x. tip table = 		10000
+-- xi. user table =		10000
 
 SELECT COUNT(*) 
 AS
@@ -51,11 +51,11 @@ i. Business =		44092
 ii. Hours = 		3614
 iii. Category =		3355
 iv. Attribute =		1285
-v. Review =			40568
+v. Review =		40568
 vi. Checkin = 		697
 vii. Photo =		21194
 viii. Tip = 		16751
-ix. User = 			19251 
+ix. User = 		19251 
 x. Friend = 		9426
 xi. Elite_years =	2793
 
@@ -189,12 +189,12 @@ WHERE 	id is null
 
 -- i. Table: Review, Column: Stars
 	
-	min:1.0         max:5.0 		avg:3.7082 
+	min:1.0         max:5.0 	avg:3.7082 
 		
 	
 -- ii. Table: Business, Column: Stars
 	
-	min:1.0         max:5.0			avg:3.6549
+	min:1.0         max:5.0		avg:3.6549
 		
 	
 -- iii. Table: Tip, Column: Likes
@@ -204,12 +204,12 @@ WHERE 	id is null
 	
 -- iv. Table: Checkin, Column: Count
 	
-	min:1           max:53			avg:1.9414
+	min:1           max:53		avg:1.9414
 		
 	
 -- v. Table: User, Column: Review_count
 	
-	min:0     	   max:2000			avg:24.2995
+	min:0     	max:2000	avg:24.2995
 	
 -- i.
 
